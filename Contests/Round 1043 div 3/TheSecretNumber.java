@@ -76,7 +76,7 @@ public class TheSecretNumber {
             }
 
             System.out.println(fin.size());
-            
+            Collections.sort(fin);
             for(BigInteger x:fin){
                 System.out.print(x+" ");
             }
