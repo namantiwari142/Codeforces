@@ -1,6 +1,5 @@
-package myutils;
-
 import java.io.*;
+import java.math.BigInteger;
 import java.util.*;
 
 public class FastInput {
@@ -24,6 +23,10 @@ public class FastInput {
 
     public long nextLong() throws IOException { 
         return Long.parseLong(next()); 
+    }
+
+    public BigInteger nexBigInteger() throws IOException {
+            return new BigInteger(next());
     }
 
     public int[] readArray(int n) throws IOException {
